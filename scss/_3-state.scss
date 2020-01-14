@@ -1,0 +1,43 @@
+// Spitesheet
+.sprite {
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto
+}
+
+.sprite-affo-ico {
+    width: 85px;
+    height: 85px;
+    background-position: -5px -5px
+}
+
+.sprite-hot-ico {
+    width: 83px;
+    height: 83px;
+    background-position: -100px -5px
+}
+
+.sprite-left-icon-1 {
+    width: 30px;
+    height: 60px;
+    background-position: -100px -98px
+}
+
+.sprite-llive-ic {
+    width: 86px;
+    height: 87px;
+    background-position: -193px -5px
+}
+
+.sprite-right-icon-1 {
+    width: 30px;
+    height: 60px;
+    background-position: -5px -102px
+}
+
+.sprite-status-ico {
+    width: 84px;
+    height: 84px;
+    background-position: -140px -102px
+}

@@ -1,0 +1,35 @@
+// banner images - inner page
+
+
+.banner {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 3rem;
+
+    img {
+        object-fit: cover;
+        object-position: center;
+        height: 300px;
+    }
+}
+
+.banner .carousel-caption {
+    // bottom: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .carousel-caption h3 {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 60px;
+
+    @media (max-width: 575px) {
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+}

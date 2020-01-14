@@ -1,0 +1,417 @@
+// HEADER
+
+#nav1 {
+    background-color: $primary;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+
+    a {
+        color: #fff;
+    }
+
+    .social-top i {
+        padding: 0 3px;
+    }
+}
+
+#nav2 {
+    background-color: #fff;
+    border-bottom: 3px solid $primary;
+
+    .navbar-brand img {
+        width: 220px;
+    }
+
+    .navbar-toggler {
+        @media(max-width: 768px) {
+            position: relative;
+            right: -25px;
+            top: 10px;
+        }
+
+        @media(max-width: 341px) {
+            top: -5px;
+        }
+    }
+
+    .search-frm-cntr .form-control {
+        background: 0 0;
+        border-radius: 0;
+        border: 1px solid #ccc !important;
+        box-shadow: none !important;
+        font-size: 14px;
+        color: #333;
+        padding: 4px;
+    }
+
+    .search-frm-cntr a i {
+        color: #333 !important;
+        font-size: 22px;
+    }
+
+    .menu-right .nav-item .nav-link {
+        color: #3d3d3d !important;
+        text-transform: uppercase;
+        margin: 0;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .nav-link {
+        font-size: 15.5px !important;
+    }
+
+    .dropdown-menu {
+        background: rgba(251, 151, 0, .8);
+        border: transparent;
+        box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.5);
+
+        .dropdown-item {
+            &:hover {
+                background-color: $primary;
+            }
+
+            color: #fff;
+        }
+
+        .dropdown-toggle::after {
+            border-left-color: transparent !important;
+        }
+    }
+
+    @media(max-width: 575px) {
+        .nav-link {
+            padding-left: 5%;
+        }
+    }
+
+    // Nested Dropdown
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+    .dropdown-submenu {
+        position: relative;
+    }
+
+    .dropdown-submenu>.dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -6px;
+        margin-left: -1px;
+        border-radius: 0 6px 6px 6px;
+    }
+
+    .dropdown-submenu:hover>.dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-submenu:hover>a:after {
+        border-left-color: #fff;
+    }
+
+    .dropdown-submenu.pull-left {
+        float: none;
+    }
+
+    .dropdown-submenu.pull-left>.dropdown-menu {
+        left: -100%;
+        margin-left: 10px;
+        border-radius: 6px 0 6px 6px;
+    }
+
+    .dropdown-menu-large {
+        overflow-Y: auto;
+    }
+
+    .dropdown-menu {
+        &::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: rgba(119, 119, 119, 0.2);
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #f1f1f1;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    }
+}
+
+
+// SERVICES
+#section2 {
+    padding: 80px 3%;
+    padding-top: 40px;
+
+    .heading {
+        text-align: center;
+
+        p {
+            font-size: 1.125rem;
+            color: #4f4f4f;
+            margin-bottom: 50px;
+        }
+    }
+
+    .fut-list {
+        border: 1px solid #6c6488;
+        padding: 20px 20px;
+        text-align: center;
+        min-height: 260px;
+        margin-bottom: 25px;
+
+        h2 {
+            font-size: 1.25rem;
+            margin: 20px 0;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        p,
+        a {
+            font-size: .875rem;
+        }
+    }
+}
+
+// DOCUMENT ATTESTATIONS
+#section3 {
+    @include bgimage;
+
+    .heading {
+        color: #fff;
+        text-align: center;
+
+        @media(max-width:992px) {
+            font-size: 40px;
+        }
+    }
+
+    .slider1 {
+        color: #fff;
+        text-align: center;
+
+        .slide {
+            padding: 0 20px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+// ABOUT US
+#section5 {
+    @include bgimage;
+
+    .heading,
+    p {
+        color: #fff;
+    }
+
+    .wrapper {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+}
+
+#section6 {
+    img {
+        margin: auto;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+        color: $primary;
+    }
+}
+
+#section7 {
+    text-align: center;
+    @include bgimage;
+    color: #fff;
+
+    .heading {
+        color: #fff;
+    }
+
+    .slider3 {
+
+        blockquote,
+        h3,
+        h2 {
+            font-size: 24px;
+        }
+    }
+
+
+
+    .slick-dots {
+        button::before {
+            color: $primary;
+            font-size: 10px;
+        }
+    }
+}
+
+footer {
+    .main-footer {
+        padding: 50px 3%;
+        background-color: #3b3b3b;
+        color: #bdbdbd;
+
+        .footer-heading {
+            color: #fff;
+            font-size: 16px;
+            margin-top: 30px;
+        }
+
+        .column1 {
+            p {
+                margin-bottom: 0;
+            }
+        }
+
+        .column3 {
+            a {
+                color: inherit;
+                display: block;
+            }
+        }
+
+        hr {
+            border-color: #fff;
+            margin-top: .3rem;
+        }
+    }
+
+    .subfooter {
+        background-color: #161616;
+        text-align: center;
+        padding: 20px 0;
+
+        p {
+            color: #fff;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.fixed-mobile {
+    &:hover {
+        background-color: rgba(107, 99, 135, 1) !important;
+    }
+}
+
+.fixed-whatsapp i:hover {
+    color: darken(#00E676, 10%);
+}
+
+.quick-enquiry {
+    position: fixed;
+    top: 40%;
+    left: 0;
+    line-height: 14px;
+    font-size: 14px;
+    padding: 0.8rem;
+    background-color: rgba(221, 51, 51, 0.8);
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: rgba(221, 51, 51, 1);
+    }
+}
+
+#quick-enquiry-modal {
+    button[type=submit] {
+        background-color: #d33 !important;
+    }
+}
+
+// *****************************************************
+
+.inner-serv {
+    padding: 20px 0
+}
+
+// *****************************************************
+
+// embassy-details.html
+
+#embassy-details-page {
+    .embassy {
+        padding: 10px;
+        border: 1px solid #ccc;
+        background: #f5f5f5;
+        margin-bottom: 15px;
+        min-height: 240px;
+        text-align: center
+    }
+
+    .embassy p {
+        margin: 10px 0 0;
+        font-size: 14px
+    }
+}
+
+// procedure.html
+
+.left-menu {
+    background: #fbb331;
+
+    @media(max-width: 768px) {
+        margin-bottom: 50px;
+    }
+}
+
+.left-menu .card {
+    background: 0 0;
+    border: none
+}
+
+.left-menu .card-body {
+    background: #fba100
+}
+
+.left-menu .btn-link {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    text-align: left;
+    white-space: inherit
+}
+
+.left-menu .btn-link.active {
+    font-weight: 700
+}
+
+.left-menu .card-body a {
+    color: #fff !important;
+    margin: 5px 0;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #fff;
+    text-decoration: none
+}

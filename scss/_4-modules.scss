@@ -1,0 +1,13 @@
+.button-primary {
+    background-color: $primary;
+    color: #fff;
+    border: 0;
+    padding: 7px 15px;
+
+    &:hover {
+        background-color: darken($primary, 10%);
+        transition: .3s ease;
+        text-decoration: none;
+        color: #fff;
+    }
+}

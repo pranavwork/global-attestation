@@ -1,0 +1,65 @@
+// Colors
+$primary: #fba100;
+
+// fonts
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-padding {
+    padding: 5rem 0;
+}
+
+a {
+    color: $primary;
+}
+
+.heading {
+    font-size: 2.75rem;
+    text-align: center;
+    margin-bottom: 50px;
+
+    h2 {
+        font-size: 2.75rem;
+    }
+}
+
+
+
+@mixin bgimage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+// CSS Debug
+// * {
+//     background: #000 !important;
+//     color: #0f0 !important;
+//     outline: solid #f00 1px !important;
+// }
+
+// Slick Js fontawesome arrows
+.slick-arrow-left,
+.slick-arrow-right {
+    position: absolute;
+    top: 30%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 25px 10px;
+    border-radius: 5px;
+    z-index: 1;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+    }
+}
+
+.slick-arrow-left {
+    left: 0;
+}
+
+.slick-arrow-right {
+    right: 0;
+}
