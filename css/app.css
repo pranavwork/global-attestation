@@ -440,7 +440,6 @@ footer .subfooter p {
 
 .banner {
   border-bottom: 2px solid #ccc;
-  margin-bottom: 3rem;
 }
 
 .banner img {
@@ -479,6 +478,26 @@ footer .subfooter p {
     font-weight: bold;
     line-height: 40px;
   }
+}
+
+.dark-img {
+  -webkit-filter: brightness(75%);
+          filter: brightness(75%);
+}
+
+.button-primary {
+  background-color: #fba100;
+  color: #fff;
+  border: 0;
+  padding: 7px 15px;
+}
+
+.button-primary:hover {
+  background-color: #c88000;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  text-decoration: none;
+  color: #fff;
 }
 
 .sprite {
@@ -522,20 +541,5 @@ footer .subfooter p {
   width: 84px;
   height: 84px;
   background-position: -140px -102px;
-}
-
-.button-primary {
-  background-color: #fba100;
-  color: #fff;
-  border: 0;
-  padding: 7px 15px;
-}
-
-.button-primary:hover {
-  background-color: #c88000;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-  text-decoration: none;
-  color: #fff;
 }
 /*# sourceMappingURL=app.css.map */
