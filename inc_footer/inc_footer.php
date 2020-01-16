@@ -1,6 +1,25 @@
 <footer>
         <div class="main-footer">
           <div class="container-fluid">
+          <div class="row">
+                 <div class="col-12 px-0 footer-search">
+                   <div class="sear-cntr float-right">
+                     <form class="form-inline search-frm-cntr">
+                       <div class="d-flex align-items-center">
+                         <input
+                           class="form-control mr-sm-2"
+                           type="search"
+                           placeholder="Track Your ID"
+                           aria-label="Search"
+                         />&nbsp;
+                         <a href="#"
+                           ><i class="fa fa-search" aria-hidden="true"></i
+                         ></a>
+                       </div>
+                     </form>
+                   </div>
+                </div>
+          </div>
             <div class="row">
               <div class="col-lg-4 column1">
                 <h4 class="footer-heading">Address</h4>
@@ -22,9 +41,9 @@
                   href="https://www.google.com/maps?ll=28.574134,77.257807&z=15&t=m&hl=en-US&gl=IN&mapclient=embed&cid=4625034535304105360"
                   ><img
                     alt="attestation"
-                    data-src="images/map.jpg"
+                    src="images/map.jpg"
                     width="100%"
-                    class="lozad"
+
                   /> </a
                 ><!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.854419356975!2d77.25561831507476!3d28.574133982440802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a38ab1f281%3A0x402f6c67c6b70d90!2sGlobal+Attestation+Services!5e0!3m2!1sen!2sin!4v1519272486267" width="100%" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
           -->
@@ -157,7 +176,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"
       ></script>
-      <script
+      <!-- <script
         type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"
       ></script>
@@ -167,7 +186,7 @@
 
         // ... code to dynamically add elements
         // observer.observe(); // observes newly added elements as well
-      </script>
+      </script> -->
 
       <script src="https://kit.fontawesome.com/a076d05399.js" async></script>
 

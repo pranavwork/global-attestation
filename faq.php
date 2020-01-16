@@ -6,15 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-     <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
-    <link rel="stylesheet"  href="css/lightslider.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css" >
-   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,700" rel="stylesheet">
-
 
 
         <!--HEADER STARTS-->
@@ -25,7 +16,7 @@
        <div id="carouselExampleIndicators" class="carousel slide banner inner" data-ride="carousel">
     <div class="carousel-inner">
            <div class="carousel-item active"> <img class="d-block w-100" src="images/webp/abt-banner.webp" alt="First slide">
-        <div class="carousel-caption ">
+        <div class="carousel-caption">
                <h3>
 FAQ
 </h3>

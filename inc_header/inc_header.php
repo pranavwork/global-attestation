@@ -97,7 +97,7 @@
              </div>
              <div class="col-lg-9">
                <div class="row align-content-between" style="height:100%">
-                 <div class="col-12 px-0">
+                 <div class="col-12 px-0 header-search">
                    <div class="sear-cntr float-right">
                      <form class="form-inline search-frm-cntr">
                        <div class="d-flex align-items-center">

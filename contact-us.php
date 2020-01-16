@@ -6,14 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-     <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
-    <link rel="stylesheet"  href="css/lightslider.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css" >
-   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,700" rel="stylesheet">
 
 
      <!--HEADER STARTS-->
@@ -79,7 +72,7 @@
 
     <div class="col-xl-6 col-lg-6  col-md-6">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.854419356975!2d77.25561831507476!3d28.574133982440802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a38ab1f281%3A0x402f6c67c6b70d90!2sGlobal+Attestation+Services!5e0!3m2!1sen!2sin!4v1519272486267" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe class="lozad" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.854419356975!2d77.25561831507476!3d28.574133982440802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3a38ab1f281%3A0x402f6c67c6b70d90!2sGlobal+Attestation+Services!5e0!3m2!1sen!2sin!4v1519272486267" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
     </div>
